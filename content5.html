@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
 </head>
 <body>
     <h1 style="text-align: center;">CLIENTE COM LENTIDÃO, O QUE FAZER ?</h1>
 
     <nav>
+        
+
+
+  
+  
         <div class="button-container">
             <button onclick="loadContent('content11.html')">pedir para reiniciar o equipamento</button>
             <button onclick="loadContent('content12.html')">perguntar onde está a lentidão</button>
@@ -16,5 +22,16 @@
             
         </div>
     </nav>
+    <script>
+        $('form').on('submit',function(e){
+    e.preventDefault();
+    var but = $(this).find('[type="submit"]').toggleClass('sending').blur();
+    
+    setTimeout(function(){
+       but.removeClass('sending').blur();
+    },4500);
+    
+  })
+    </script>
 </body>
 </html>
