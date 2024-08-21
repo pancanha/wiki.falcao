@@ -8,9 +8,24 @@ body {
     height: 100vh;
     background-color: #f4f4f4;
 }
+
+article {
+    background-color: rgb(158, 186, 211);
+}
+img {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(158, 186, 211);
+    padding: 20px;
+}
 nav {
     background-color: rgb(53, 118, 172);
     padding: 100px;
+    
+}
+menu {
+    background-color: rgb(158, 186, 211);
 }
 .button-container {
     display: flex;
