@@ -1,20 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
 </head>
 <body>
     <h1 style="text-align: center;">CLIENTE COM LENTIDÃO, O QUE FAZER ?</h1>
-    <nav>
+<style>
+.btn-1 {
+    color: white;
+    background: rgb(6, 131, 33);
+    background: linear-gradient(0deg, rgb(6, 131, 27) 0%, rgb(74, 180, 12) 100%);
+    border: none;
+  }
+  .btn-1:hover {
+     background: rgb(0,3,255);
+  background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+  }
+  
+</style>
+
+        
+        
+
+
+  
+  
         <div class="button-container">
-            <button onclick="loadContent('content11.html')">pedir para reiniciar o equipamento</button>
-            <button onclick="loadContent('content12.html')" style="background-color: green;">perguntar onde está a lentidão</button>
+            <button onclick="loadContent('content11.html')" class="custom-btn btn-1"><span>Pedir para reiniciar o equipamento</span></button>
+            <button onclick="loadContent('content12.html')" class="custom-btn btn-1"><span>Perguntar onde é a lentidão</span>
+            </button>
             <button onclick="loadContent('content13.html')">perguntar no que está utilizando</button>
             
         </div>
     </nav>
-    <p>Aqui é lentidão</p>
+   <p>cliente com conexão ruim</p>
 </body>
 </html>
